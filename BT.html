@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .main {
+      width: 40%;
+      margin: auto;
+    }
+
+    p {
+      font-size: 30px;
+      color: red;
+      margin: unset;
+      overflow-wrap: break-word;
+    }
+
+    .div__wrap {
+      width: 500px;
+    }
+    .div--red,
+    .div--blue {
+      height: 50px;
+      width: 100%;
+    }
+
+    .div--red {
+      background: red;
+    }
+
+    .div--blue {
+      background-color: blue;
+    }
+  </style>
+  <body>
+    <div class="container main">
+      <section>
+        <form>
+          <h2>Bài 1:</h2>
+          <button type="button" class="btn btn-primary result-btn-1">
+            check
+          </button>
+          <p class="mess-1"></p>
+        </form>
+      </section>
+      <section>
+        <h2>Bài 2</h2>
+        <form>
+          <div class="form-group">
+            <label for="number1">Number1</label>
+            <input
+              type="number"
+              class="form-control"
+              name="number1"
+              id="number1"
+              value="0"
+            />
+          </div>
+          <div class="form-group">
+            <label for="number2">Number2</label>
+            <input
+              type="number"
+              class="form-control"
+              name="number2"
+              id="number2"
+              value="0"
+            />
+          </div>
+          <button type="button" class="btn btn-primary result-btn-2">
+            check
+          </button>
+          <p class="mess-2"></p>
+        </form>
+      </section>
+      <section>
+        <h2>Bài 3:</h2>
+        <form>
+          <div class="form-group">
+            <label for="numberBT3">Number</label>
+            <input
+              type="number"
+              class="form-control"
+              name="numberBT3"
+              id="numberBT3"
+              value="0"
+            />
+          </div>
+          <button type="button" class="btn btn-primary result-btn-3">
+            result
+          </button>
+          <p class="mess-3"></p>
+        </form>
+      </section>
+      <section>
+        <h2>Bài 4:</h2>
+        <form>
+          <button type="button" class="btn btn-primary result-btn-4">
+            result
+          </button>
+          <div class="div_wrap"></div>
+        </form>
+      </section>
+      <section>
+        <h2>Bài 5:</h2>
+        <form>
+          <div class="form-group">
+            <label for="numberBT5">Number</label>
+            <input
+              type="number"
+              class="form-control"
+              name="numberBT5"
+              id="numberBT5"
+              value="0"
+            />
+          </div>
+          <button type="button" class="btn btn-primary result-btn-5">
+            result
+          </button>
+          <p class="mess-5"></p>
+        </form>
+      </section>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+      integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./BT.js"></script>
+  </body>
+</html>
